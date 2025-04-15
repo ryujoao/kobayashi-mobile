@@ -53,7 +53,7 @@ export default function Index() {
             <View style={styles.menuContent}>
               <Text style={styles.itemName}>{item.name}</Text>
               <Text style={styles.itemDescription}>{item.description}</Text>
-              <Text style={styles.itemPrice} >{item.price.toFixed(2)}</Text>
+              <Text style={styles.itemPrice} >R$ {item.price.toFixed(2)}</Text>
             </View>
             <Image style={styles.itemImage} source={item.image}/>
           </TouchableOpacity>
