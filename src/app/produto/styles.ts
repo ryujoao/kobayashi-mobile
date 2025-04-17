@@ -9,7 +9,7 @@ export const styles = StyleSheet.create ({
     },
     headerImage:{
         width: "100%",
-        height: 350,
+        height: 300,
     },
     produtoName: {
     fontSize: 24,
@@ -48,6 +48,21 @@ export const styles = StyleSheet.create ({
         color: "#666",
         paddingLeft: 16,
         paddingTop: 10
+    },
+    
+    botao: {
+        display: "flex",
+        justifyContent: "center",
+        alignSelf: "center",
+        marginTop: 30,
+        backgroundColor: "#FFD700",
+        width: 370,
+        height: 45,
+        borderRadius: 10 
+    },
+
+    botaoText: {  
+        textAlign: "center",
     },
 
     

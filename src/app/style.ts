@@ -38,4 +38,14 @@ export const styles = StyleSheet.create ({
         textAlign: "center",
     },
    
+    criar: {
+        paddingTop: 16,
+        paddingLeft: 16,
+    },
+    
+    criarText: {
+        textDecorationLine: 'underline',
+        textDecorationColor: "blue"
+    }
+
 })

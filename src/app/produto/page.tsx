@@ -1,6 +1,6 @@
 import { Button, Image, Text, TouchableOpacity, View } from "react-native";
 import { styles } from "./styles";
-import { Link } from "@react-navigation/native";
+import { Link } from "expo-router";
 
 export default function ProductScreen() {
   return (
@@ -32,6 +32,11 @@ export default function ProductScreen() {
           cortadas ao meio (alga-marinha).
         </Text>
       </View>
+      <Link href={"/home/page"} asChild>
+      <TouchableOpacity style={styles.botao}>
+        <Text style={styles.botaoText}>Adicionar à sacola</Text>
+      </TouchableOpacity>
+      </Link>
       </View>
   );
 }
